@@ -1,0 +1,199 @@
+body {
+  background: linear-gradient(rgb(105, 226, 147), rgb(12, 172, 169));
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+.font-light {
+  font-weight: 200;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.white-button {
+  text-align: center;
+  color: rgb(105, 226, 147);
+  background-color: white;
+  border-radius: 30px;
+  width: 175px;
+  border: 1px solid rgb(12, 172, 169);
+  font-weight: 700;
+  height: 40px;
+  font-family: "Montserrat";
+  font-size: larger;
+  transition-duration: 0.8s;
+}
+
+.white-button:hover {
+  color: white;
+  background-color: rgb(12, 172, 169);
+  border: 1px solid white;
+}
+
+.white-button.chosen {
+  color: white;
+  background-color: rgb(12, 172, 169);
+}
+
+.white-cont {
+  background-color: white;
+  opacity: 0.9;
+  border-radius: 30px;
+}
+
+.main-cont {
+  margin-top: 4em;
+  margin-bottom: 4em;
+
+  padding: 3em;
+  width: 80%;
+}
+
+.green-button {
+  color: white;
+  background: linear-gradient(rgb(12, 172, 169), rgb(105, 226, 147));
+  border-radius: 20px;
+  width: 350px;
+  border: 2px solid rgb(12, 172, 169);
+  font-weight: 700;
+  height: 70px;
+  font-family: "Montserrat";
+  font-size: x-large;
+  transition-duration: 0.5s;
+}
+
+.green-button:hover {
+  box-shadow: 12px 12px 5px -5px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  padding: 2em 2em 1em 2em;
+  background-color: rgb(12, 172, 169);
+  color: white;
+  font-weight: 400;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+a.a-logo:hover {
+  text-decoration: none;
+}
+
+.text-light-green {
+  color: rgb(105, 226, 147);
+}
+
+.text-dark-green {
+  color: rgb(12, 172, 169);
+}
+
+a {
+  text-decoration: none;
+}
+
+.auth-cont {
+  width: 50%;
+  padding: 2em 4em;
+  margin-bottom: 3em;
+}
+
+.auth-link {
+  color: black;
+  text-decoration: underline;
+}
+
+.auth-link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.auth-cont input {
+  border-color: rgb(12, 172, 169);
+  font-size: x-large;
+}
+
+.auth-cont input:focus {
+  box-shadow: 0px 0px 10px 1px rgb(12, 172, 169);
+}
+
+.add-button {
+  border: 2px solid rgb(12, 172, 169);
+  color: white;
+  background-color: rgb(105, 226, 147);
+  width: 250px;
+  border-radius: 10px;
+  font-weight: 400;
+  height: 40px;
+  font-size: larger;
+  transition-duration: 0.8s;
+  font-family: "Montserrat";
+}
+
+.add-button:hover {
+  background-color: rgb(12, 172, 169);
+}
+
+.transaction-cont {
+  text-align: center;
+  width: 60%;
+  padding: 2em;
+  margin-bottom: 3em;
+}
+
+.transaction-cont .card {
+  margin: 1em;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.transaction-cont .row {
+  margin: 0;
+  padding: 0.5em;
+}
+
+.transaction-cont .dark {
+  background-color: rgb(230, 230, 230);
+}
+
+.transaction-cont .light {
+  background-color: rgb(240, 240, 240);
+}
+
+.transaction-cont a {
+  color: black;
+}
+
+.transaction-cont a:hover {
+  color: rgb(12, 172, 169);
+}
+
+#logo-square {
+  fill: white;
+  opacity: 0.8;
+  position: relative;
+}
+
+#logo-letter {
+  position: relative;
+  top: -1.3em;
+  margin: 0;
+  padding: 0;
+}
