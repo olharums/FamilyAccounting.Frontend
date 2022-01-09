@@ -1,0 +1,19 @@
+@import "../../settings/variables.scss";
+@import "../../settings/commonProperties.scss";
+
+a.a-logo:hover {
+  text-decoration: none;
+}
+
+#logo-square {
+  fill: white;
+  opacity: 0.8;
+  position: relative;
+}
+
+#logo-letter {
+  position: relative;
+  top: -1.3em;
+  margin: 0;
+  padding: 0;
+}

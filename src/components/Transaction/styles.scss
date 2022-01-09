@@ -1,0 +1,54 @@
+@import "../../settings/variables.scss";
+@import "../../settings/commonProperties.scss";
+
+.transaction-cont {
+  @extend %white-cont;
+  text-align: center;
+  width: 60%;
+  padding: 2em;
+  margin-bottom: 3em;
+
+  .card {
+    margin: 1em;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .row {
+    margin: 0;
+    padding: 0.5em;
+  }
+
+  .dark {
+    background-color: darken($grey, 5%);
+  }
+
+  .light {
+    background-color: $grey;
+  }
+
+  a {
+    color: black;
+
+    &:hover {
+      color: $dark-green;
+    }
+  }
+}
+
+.add-button {
+  border: 2px solid $dark-green;
+  color: white;
+  background-color: $light-green;
+  width: 250px;
+  border-radius: 10px;
+  font-weight: 400;
+  height: 40px;
+  font-size: larger;
+  transition-duration: 0.8s;
+  font-family: "Montserrat";
+
+  &:hover {
+    background-color: $dark-green;
+  }
+}

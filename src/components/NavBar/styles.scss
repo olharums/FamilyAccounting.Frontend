@@ -1,0 +1,26 @@
+@import "../../settings/variables.scss";
+
+.white-button {
+  text-align: center;
+  color: $light-green;
+  background-color: white;
+  border-radius: 30px;
+  width: 175px;
+  border: 1px solid $dark-green;
+  font-weight: 700;
+  height: 40px;
+  font-family: "Montserrat";
+  font-size: larger;
+  transition-duration: 0.8s;
+
+  &:hover {
+    color: white;
+    background-color: $dark-green;
+    border: 1px solid white;
+  }
+
+  &.chosen {
+    color: white;
+    background-color: $dark-green;
+  }
+}
