@@ -1,0 +1,42 @@
+@import "./variables.scss";
+
+.font-light {
+  font-weight: 200;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-light-green {
+  color: $light-green;
+}
+
+.text-dark-green {
+  color: $dark-green;
+}
+
+body {
+  background: linear-gradient($light-green, $dark-green);
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+a {
+  text-decoration: none;
+}
+
+%white-cont {
+  background-color: white;
+  opacity: 0.9;
+  border-radius: 30px;
+}

@@ -1,8 +1,8 @@
 import { useContext, useEffect } from "react";
 import { Container } from "react-bootstrap";
 
-import Transaction from "../Components/Transaction";
-import { Context } from "../WrappedApp";
+import Transaction from "../components/Transaction/Transaction";
+import { Context } from "../ContextedApp";
 
 const Incomes = () => {
   const { transactions } = useContext(Context);

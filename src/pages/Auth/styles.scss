@@ -1,0 +1,45 @@
+@import "../../settings/variables.scss";
+@import "../../settings/commonProperties.scss";
+
+.auth-cont {
+  @extend %white-cont;
+  width: 50%;
+  padding: 2em 4em;
+  margin-bottom: 3em;
+
+  input {
+    border-color: $dark-green;
+    font-size: x-large;
+
+    &:focus {
+      box-shadow: 0px 0px 10px 1px $dark-green;
+    }
+  }
+}
+
+.auth-link {
+  color: black;
+  text-decoration: underline;
+
+  &:hover {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+.green-button {
+  color: white;
+  background: linear-gradient($dark-green, $light-green);
+  border-radius: 20px;
+  width: 350px;
+  border: 2px solid $dark-green;
+  font-weight: 700;
+  height: 70px;
+  font-family: "Montserrat";
+  font-size: x-large;
+  transition-duration: 0.5s;
+
+  &:hover {
+    box-shadow: 12px 12px 5px -5px rgba(0, 0, 0, 0.2);
+  }
+}
