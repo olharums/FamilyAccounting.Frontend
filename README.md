@@ -1,6 +1,6 @@
 # Family Accounting
 
-This is a frontend part of pet-project named Family Accounting
+This is a frontend part of pet-project named Family Accounting which is in development
 
 The app include the following stack of technologies:
 - ReactJS
