@@ -9,6 +9,8 @@ The app include the following stack of technologies:
 - Bootstrap 5
 - Atomic Design Pattern
 
+Jira link: https://familyaccounting.atlassian.net/jira/software/projects/FAC/boards/1
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
