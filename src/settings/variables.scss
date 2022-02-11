@@ -1,3 +1,5 @@
 $light-green: rgb(105, 226, 147);
 $dark-green: rgb(12, 172, 169);
 $grey: rgb(240, 240, 240);
+$light-green-darkened: darken($light-green, 50%);
+$dark-green-darkened: darken($dark-green, 50%);

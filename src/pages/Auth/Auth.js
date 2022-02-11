@@ -15,6 +15,7 @@ const Auth = () => {
   const isLoginRoute = useLocation().pathname === LOGIN_ROUTE;
 
   const { user } = useContext(Context);
+
   return (
     <Container>
       <Container className="text-center auth-cont">

@@ -26,9 +26,13 @@
 
 body {
   background: linear-gradient($light-green, $dark-green);
+  // background: linear-gradient($light-green-darkened, $dark-green-darkened);
   background-repeat: no-repeat;
   margin: 0;
   font-family: "Montserrat";
+  &.dark {
+    background: linear-gradient($light-green-darkened, $dark-green-darkened);
+  }
 }
 
 a {
@@ -37,6 +41,10 @@ a {
 
 %white-cont {
   background-color: white;
+  // background-color: rgba(0, 0, 0, 0.6);
   opacity: 0.9;
   border-radius: 30px;
+  .dark & {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
 }

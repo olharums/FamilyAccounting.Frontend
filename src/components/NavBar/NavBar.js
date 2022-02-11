@@ -31,7 +31,7 @@ const NavBar = observer(() => {
   return (
     <div className="mt-2">
       <Row style={{ margin: 0 }} className="align-items-baseline">
-        <Col md="3">
+        <Col md="2">
           <Logo position={"navbar"} />
         </Col>
 
@@ -52,13 +52,16 @@ const NavBar = observer(() => {
 
           <MiddleButton
             hidden={!user.isAuth}
-            link={LOGIN_ROUTE}
+            link={""}
             isChosen={false}
             text={"Сводка"}
           />
         </Col>
 
-        <Col md={3} className="text-center">
+        <Col
+          md={4}
+          className="text-center d-flex flex-row justify-content-evenly align-items-center"
+        >
           {user.isAuth ? (
             <Link to={MAIN_PAGE_ROUTE} hidden={isAuthorizationRoute}>
               <button
@@ -73,6 +76,10 @@ const NavBar = observer(() => {
               <button className="white-button">Войти</button>
             </Link>
           )}
+          <label id="switch" class="switch">
+            <input type="checkbox" onchange="toggleTheme()" id="slider" />
+            <span class="slider round"></span>
+          </label>
         </Col>
       </Row>
     </div>
